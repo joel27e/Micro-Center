@@ -1,0 +1,211 @@
+/* Estilos para la página de inicio */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(189, 34%, 88%);
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+    display: flex; /* Agregado para alinear logo y nombre en el encabezado */
+    justify-content: space-between; /* Espacio entre logo y nombre */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* Estilos para el logotipo y nombre de la web */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px; /* Tamaño más pequeño del logo */
+    height: 40px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0; /* Elimina el margen predeterminado */
+}
+h2{
+    font-size:24px ;
+    color: #000000;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinear elementos del menú horizontalmente */
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h4{
+    color:#ff0e0e;
+}
+
+main {
+    padding: 20px;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado (header) */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.logo h1 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos para la sección de productos destacados */
+.productos-destacados {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.producto-destacado {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: calc(33.33% - 40px);
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.producto-destacado:hover {
+    transform: scale(1.05);
+}
+
+.producto-destacado h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.producto-destacado img {
+    max-width: 100%;
+    height: 170px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.producto-destacado p {
+    margin: 10px 0;
+}
+
+.producto-destacado button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Estilos para el contenido principal (main) */
+main {
+    background-color: #fff;
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+main p {
+    font-size: 18px;
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+/* Estilo básico para el footer */
+footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto en el footer */
+    padding: 20px; /* Espaciado interno para el contenido del footer */
+    text-align: center; /* Alinear el contenido al centro */
+  }
+  
+  /* Personaliza el estilo de los enlaces en el footer */
+  footer a {
+    color: #fff; /* Color del enlace en el footer */
+    text-decoration: none; /* Eliminar la subrayado de los enlaces */
+  }
+  
+  /* Estilo para los enlaces al pasar el cursor sobre ellos */
+  footer a:hover {
+    text-decoration: underline; /* Agregar subrayado al pasar el cursor sobre los enlaces */
+  }
+  
+/* Resto de los estilos permanecen iguales */
